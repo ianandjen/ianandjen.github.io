@@ -10,24 +10,66 @@ html {
     height: 100%;
 }
 
-body,
 h1,
-h2,
+h2 {
+  font-family: "Parisienne",cursive;
+  font-weight: 700;
+}
+
+.lead-additional {
+  margin-top: 16px;
+}
+
+.navbar-brand {
+  padding-top: 17px !important;
+  font-size: 20px !important;
+  font-family: "Parisienne",cursive;
+  font-weight: bold;
+}
+
+li,
+td {
+  font-weight: 400 !important;
+}
+
+td {
+  text align: left;
+}
+
+td:first-child {
+  text-align: right;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+body,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Arimo","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
 .topnav {
-    font-size: 14px; 
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .lead {
     font-size: 18px;
     font-weight: 400;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .intro-header {
@@ -41,7 +83,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 14%;
     padding-bottom: 20%;
 }
 
