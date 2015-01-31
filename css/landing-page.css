@@ -16,6 +16,12 @@ h2 {
   font-weight: 700;
 }
 
+@media (min-width: 768px) {
+  .m-fix {
+    margin-left: 12.5%;
+  }
+}
+
 .lead-additional {
   margin-top: 16px;
 }
